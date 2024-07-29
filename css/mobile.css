@@ -1,0 +1,318 @@
+@media (max-width: 480px) {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  .button_01 {
+    position: relative;
+    /* font-family: "Comic Sans MS", cursive; */
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    /* padding-left: 5px;
+    padding-right: 10px; */
+    outline: none;
+    border: none;
+    background-color: #6edc6d;
+    font-size: 13px;
+    box-shadow: 0 0 10px #deb887;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 180px;
+  }
+  .main_header {
+    width: 80%;
+    top: 180px;
+  }
+  .header-desc {
+    display: block;
+    margin-left: 0;
+    font-size: 12px;
+    margin-top: 10px;
+    display: none;
+  }
+  .desc-header {
+    overflow: hidden;
+  }
+  .header_container {
+    padding: 0 20px;
+    height: 30em;
+  }
+  .navbar_container {
+    width: 100%;
+    border-bottom: solid 1px #868681;
+    height: 70px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0;
+    z-index: 3;
+  }
+  .navbar {
+    padding-right: 20px;
+  }
+  .brand_logo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+  }
+  .logo {
+    display: block;
+    width: 140px;
+    height: 40px;
+    z-index: -1;
+    left: 10px;
+  }
+  .navbar a {
+    display: none;
+  }
+  .title-section {
+    font-size: 12px;
+  }
+  .title-header {
+    font-size: 30px;
+  }
+  .desc-header {
+    font-size: 12px;
+    text-align: justify;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  .header-component {
+    display: block;
+    padding-top: 10px;
+  }
+
+  .btn {
+    width: 200px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .about-container {
+    /* margin-top: ; */
+    padding: 10px;
+    display: block;
+    height: 30em;
+  }
+
+  .about-content {
+    padding-left: 10px;
+    margin-top: 60px;
+  }
+  .about-title {
+    font-size: 30px;
+  }
+  .about-desc {
+    height: 15em;
+    display: block;
+  }
+  .check-list {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .container-video {
+    height: 80px;
+    width: 80px;
+    right: 10px;
+  }
+  .material-symbols-outlined {
+    font-size: 40px;
+  }
+  .container-btn-about {
+    padding-top: 0;
+    height: 70px;
+  }
+  .about-img {
+    width: 100%;
+  }
+
+  .about-content {
+    margin-top: 40px;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .about-title {
+    font-size: 18px;
+  }
+  .section-title {
+    font-size: 14px;
+  }
+  .section-title img {
+    width: 20px;
+  }
+  .fa-circle-check {
+    color: #49af45;
+    font-size: 20px;
+  }
+  /* act */
+  .act-container {
+    padding: 0 10px;
+    padding-top: 0px;
+    height: 83em;
+    margin-top: 640px;
+    background-color: aqua;
+  }
+  .container-form {
+    padding: 0 10px;
+    top: 470px;
+    display: block;
+  }
+  .form-img {
+    width: 100%;
+    height: 60%;
+  }
+  .counter-container {
+    padding: 0 50px;
+    padding-top: 20px;
+    display: flex;
+    height: 29em;
+    flex-wrap: wrap; /* Đặt để các phần tử con có thể xuống hàng */
+    object-fit: fill;
+    background-position: unset;
+  }
+  .counter-items {
+    width: 30%; /* Giảm chiều rộng một chút để các mục không quá lớn */
+    margin: 10px 2.5%; /* Thêm margin để tạo khoảng cách giữa các mục */
+  }
+
+  .counter-items img,
+  .counter-items .icon {
+    /* Điều chỉnh kích thước icon nếu cần */
+    width: 80%; /* Ví dụ giảm kích thước icon */
+    height: auto; /* Giữ tỉ lệ khung hình */
+  }
+
+  .form-content {
+    margin-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    height: 87%;
+    width: 100%;
+  }
+  .register-container {
+    height: 75em;
+    margin-top: 180px;
+  }
+  .title-act {
+    font-size: 18px;
+  }
+  .counter-number {
+    margin-top: 10px;
+  }
+  .act-component {
+    display: block;
+    height: 30em;
+  }
+  .act-item {
+    width: 100%;
+    height: 320px;
+    margin-bottom: 120px;
+  }
+  .container-show {
+    padding-top: 40px;
+    height: 32em;
+  }
+  .slide {
+    width: 300px;
+    height: 250px;
+  }
+
+  .slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .slideshow-container {
+    margin-top: 30px;
+    position: relative;
+    max-width: calc(400px * 1);
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer {
+    padding: 10px;
+    height: 30em;
+  }
+  .map-container {
+    display: none;
+  }
+  .newsletter-container {
+    display: none;
+  }
+  .social-container {
+    padding: 0 10px;
+  }
+  .social-container h2 {
+    font-size: 14px;
+  }
+  .footer-img {
+    width: 100%;
+  }
+  .social-container {
+    display: none;
+  }
+  /* envent */
+  .even-container {
+    padding: 10px;
+    display: block;
+    height: 56em;
+    margin-top: 100px;
+  }
+  .section-header h1 {
+    font-size: 28px;
+  }
+  .event-component {
+    display: block;
+  }
+  .skills-buttons {
+    padding: 0 10px;
+  }
+  .even-container {
+    height: 40em;
+    padding-top: 40px;
+  }
+  .event-desc {
+    width: 100%;
+    height: 80%;
+  }
+  .event-img {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Sử dụng justify-content để căn giữa nội dung */
+    align-items: center; /* Căn giữa theo chiều dọc */
+  }
+
+  .event-img-main {
+    position: relative; /* Đảm bảo phần tử có vị trí tương đối nếu cần */
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 80%;
+    height: auto; /* Đặt chiều cao tự động nếu cần */
+  }
+
+  .event-img-sub {
+    right: 100px;
+    bottom: 70px;
+  }
+  .button {
+    font-size: 12px;
+    width: 48%;
+  }
+  .coming-soon-badge {
+    font-size: 12px;
+  }
+  .event-img-sub {
+    bottom: 160px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+  }
+}

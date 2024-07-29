@@ -1,0 +1,47 @@
+@media (min-width: 320px) and (max-width: 900px) {
+  :root {
+    --primary-color: #49af45;
+  }
+  .header_container {
+    padding: 0 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .navbar {
+    right: 0;
+    padding-right: 50px;
+  }
+  .navbar a {
+    display: none;
+  }
+  .logo {
+    position: absolute;
+    left: 50px;
+    width: 280px;
+    height: 85px;
+    margin-bottom: 0;
+  }
+  .navbar_container {
+    background-color: var(--primary-color);
+    padding-right: 50px;
+  }
+  .fa-bars {
+    display: block;
+    color: white;
+    font-size: 30px;
+  }
+  .fa-x {
+    display: none;
+    color: white;
+    font-size: 30px;
+  }
+  .active-x {
+    display: block;
+  }
+  .hiden-x {
+    display: none;
+  }
+  .scrollTopBtn {
+    display: none;
+  }
+}
